@@ -1,0 +1,275 @@
+
+
+.sprechblase { 
+	position: relative; 
+	width: 328px; 
+	height: auto;
+	padding:15px;
+	border: none;
+	margin:20px auto 0px auto; 
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px;
+	text-align: center; 
+	background: black;
+	opacity:0.6;
+  
+	text-align:justify;
+	color: #72767E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+	text-shadow: 0 1px 2px black;
+	letter-spacing:0px;
+	display:none;
+ }
+ 
+.closeimage {
+	height:14px;
+	width:14px;
+	float:right;
+	opacity:0.5;
+}
+
+.closeimage:hover {
+	height:14px;
+	width:14px;
+	float:right;
+	opacity:1;
+}
+
+.extender {
+	width:20px;
+	opacity:0.5;
+}
+
+.extender:hover {
+	opacity:1;
+}
+
+.extender  hr{
+	width:20px;
+	margin:1px auto 3px auto;
+	color: white;
+	background-color: white;
+	border: 1px solid;
+}
+ 
+.sprechblase  b{
+    font-size: 12px;
+ }
+.sprechblase  a{
+    font-size: 12px;
+	font-weight: bold;
+	color: #72767E;
+ }
+.sprechblase  a:hover{
+    font-size: 12px;
+	font-weight: bold;
+	color: #CED2DA;
+ }
+ 
+ #shakebox {
+	width:420px;
+	padding: 6px 0px 0px 62px;
+	margin: 20px auto 0px auto;
+	height:136px;
+ }
+ 
+.sprechblase:before { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 167px; 
+	top: -24px; 
+	border: 12px solid; 
+	border-color: transparent transparent black transparent; 
+	-moz-border-bottom-colors:black;
+  }
+  
+  
+  
+
+#login_logo{
+	margin-top: 0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background: url(img/logo_transparent_2_small.png) no-repeat top center;
+	height:420px;
+	width:400px;
+	background-position: 50% 0px;
+	
+}
+
+#main_login{
+	position:relative;
+	min-height:100%;
+	width:970px;
+	margin:0 auto 0 auto;
+	padding:0px;
+	padding-bottom: 140px;
+	padding-top:20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+
+#footer_login { 
+	position:relative;
+	margin-top:-60px;
+	text-align:center;
+	color: #72767E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+	text-shadow: 0 1px 2px black;
+}
+
+.footer { 
+	position:relative;
+	margin-top:-100px;
+	text-align:center;
+	letter-spacing: 0px;
+	color: #72767E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+	text-shadow: 0 1px 2px black;
+}
+
+
+
+.footertable{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#loginbox{
+	text-align:center;
+	width: 358px;
+	margin-left:0px;
+	margin-top:0px;
+	padding-bottom:2px;
+	border: none;
+	background-color: #000000;
+	Opacity: 0.6;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 20px rgba(0,0,0,1);
+	-moz-box-shadow: rgba(0,0,0,0.3) 4px 10px 8px;
+}
+
+#benutzer{
+	width:308px;
+	background-color: #666666;
+	background-image: url(img/background.png);
+	margin:1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:30px;
+	border: none;
+	font-size:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	float:left;
+
+	
+}
+
+#benutzer:hover{
+	box-shadow: 0px 0px 5px red;
+}
+
+#benutzer:focus{
+	box-shadow: 0px 0px 5px red;
+}
+
+#listitemuser{
+	height:34px;
+	padding-bottom:15px;
+}
+
+#listitempw{
+	height:34px;
+}
+
+#passwordunit{
+	height:30px;
+	text-align:left;
+}
+
+#loginlist{
+	display:block;
+	margin:0px;
+	padding:20px;
+	list-style-type:none;
+	
+}
+
+
+
+#passwort{
+	width:268px;
+	background-color: #666666;
+	background-image: url(img/background.png);
+	margin:1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:30px;
+	border: none;
+	font-size:20px;
+	padding-left:5px;
+	padding-right:45px;
+	padding-top:1px;
+	padding-bottom:1px;
+	float:left;
+	
+}
+
+#passwort:hover{
+	box-shadow: 0px 0px 5px red;
+}
+
+#passwort:focus{
+	box-shadow: 0px 0px 5px red;
+}
+
+#loginboxframe{
+	width:320px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	height:100px;
+}
+
+#regButton { 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-image: url(img/loginbutton.png);
+	height: 24px;
+	background-color: transparent;
+	cursor: pointer;
+	border: 0;
+	width: 38px;
+	margin-top:5px;
+	margin-left:-49px;
+}
+
+#regButton:hover {
+	background-color:red;
+	Opacity:1;
+}
+
+#regButton:active { 
+}
+
+l
+

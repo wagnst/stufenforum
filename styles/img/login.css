@@ -1,0 +1,145 @@
+
+
+
+
+#login_logo{
+	opacity: 0.5;
+	margin-top: 50px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url("img/logo_transparent_2_small.png");
+	height:400px;
+	width:400px;
+	
+}
+
+
+
+#loginbox{
+	text-align:center;
+	width: 358px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	border: none;
+	background-color: #000000;
+	Opacity: 0.5;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 2px 2px 20px rgba(0,0,0,1);
+	-moz-box-shadow: rgba(0,0,0,0.3) 4px 10px 8px;
+}
+
+#benutzer{
+	width:308px;
+	background-color: #666666;
+	background-image: url(img/background.png);
+	margin:1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:30px;
+	border: none;
+	font-size:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	float:left;
+
+	
+}
+
+#benutzer:hover{
+	box-shadow: 0px 0px 5px red;
+}
+
+#benutzer:focus{
+	box-shadow: 0px 0px 5px red;
+}
+
+#listitemuser{
+	height:34px;
+	padding-bottom:15px;
+}
+
+#listitempw{
+	height:34px;
+}
+
+#passwordunit{
+	height:30px;
+	text-align:left;
+}
+
+#loginlist{
+	display:block;
+	margin:0px;
+	padding:20px;
+	list-style-type:none;
+	
+}
+
+
+
+#passwort{
+	width:268px;
+	background-color: #666666;
+	background-image: url(img/background.png);
+	margin:1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:30px;
+	border: none;
+	font-size:20px;
+	padding-left:5px;
+	padding-right:45px;
+	padding-top:1px;
+	padding-bottom:1px;
+	float:left;
+	
+}
+
+#passwort:hover{
+	box-shadow: 0px 0px 5px red;
+}
+
+#passwort:focus{
+	box-shadow: 0px 0px 5px red;
+}
+
+#loginboxframe{
+	width:320px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	height:100px;
+}
+
+#regButton { 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-image: url(img/loginbutton.png);
+	height: 24px;
+	background-color: transparent;
+	cursor: pointer;
+	border: 0;
+	width: 38px;
+	margin-top:5px;
+	margin-left:-49px;
+}
+
+#regButton:hover {
+	background-color:red;
+	Opacity:1;
+}
+
+#regButton:active { 
+}
+
+l
+
